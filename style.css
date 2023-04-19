@@ -1,12 +1,19 @@
 body {background-color: blueviolet;
 }
-header {background-color: black;
+header {background-color: white;
     color:white
 
 }
- .cabecalho-imagem
-{
 
-    width: 20%;
+ cabecalho{
+    background-color: aquamarine;
+    color: blue;
+    display: flex;
+    justify-content: space-around;
+ }
+ .cabecalho_imagen{
 
-}
+ }
+ .cabecalho-lista-imagen{
+
+ }
