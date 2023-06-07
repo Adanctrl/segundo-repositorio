@@ -1,36 +1,45 @@
-*{
-   margin:0;
+* {
+   margin: 0;
    padding: 0;
 }
 
 
-body {background-color: blueviolet;
-   font-family: 'Croissant One', cursive;}
-header {background-color: black;
-    color:white
-    
+body {
+   background-color: blueviolet;
+   font-family: 'Croissant One', cursive;
 }
 
- cabecalho{
-    background-color: aquamarine;
-    color: blue;
-    display: flex;
-    justify-content: space-around;
-    padding: 24px 0;
- }
- .cabecalho_imagen{ 
-    width: 20%;
- }
- 
- .cabecalho-lista-imagen {
+header {
+   background-color: black;
+   color: white
+}
 
-    display: inline-block;
-    margin: 0, 16;
-    padding: 24px 0;
-    font-size: 24px;
- }
- 
-   .icon-redes{width: 24px;
-      padding: 4px 8px;
+cabecalho {
+   background-color: aquamarine;
+   color: blue;
+   display: flex;
+   justify-content: space-around;
+   padding: 24px 0;
+}
 
-   }
+.cabecalho_imagen {
+   width: 20%;
+}
+
+.cabecalho-lista-imagen {
+
+   display: inline-block;
+   margin: 0, 16;
+   padding: 24px 0;
+   font-size: 24px;
+}
+
+.icon-redes {
+   width: 24px;
+   padding: 4px 8px;
+
+}
+div-apresentacao{
+   width: 16px;
+   padding: 14px;
+}
