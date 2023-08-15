@@ -1,0 +1,11 @@
+.cabecalho {
+display: flex;
+justify-content: space-between;
+background-color: var(--branco);
+position: relative;
+}
+
+.cabecalho__menu {
+display: inline-block;
+background-image: url(""../img/menu.svg");
+}
