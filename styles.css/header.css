@@ -83,8 +83,25 @@
 
 @media and (1024px) {
     .container-titulo display: block;
-    font-family: var(--fonte-principal);
-    font-weight; 400px
-    font-size; 30px
+    font-family: var (--fonte-principal);
+    font: 400px;
+    font-size:30px
 
 }
+
+@media screen and (min-width: 1728px) {
+    .container__link[
+        display:flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--branco);]
+
+}
+.cabecalho{
+    padding: 0 2em;
+}
+.opcoes[
+    margin-rigth: auto
+]
+.containetr__texto{display:block}
+    
